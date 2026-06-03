@@ -58,6 +58,7 @@ Assets/
 ├── Scripts/
 
 │ └── PlayerMovement.cs
+
 | └── EnemyPatrol.cs
 
 ├── Sprites/
