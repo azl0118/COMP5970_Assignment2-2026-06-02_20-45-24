@@ -55,10 +55,14 @@
 
 Assets/
 ├── Scripts/
+
 │ └── PlayerMovement.cs
 | └── EnemyPatrol.cs
+
 ├── Sprites/
+
 ├── Scenes/
+
 └── UI/
 
 ## Future Improvements
