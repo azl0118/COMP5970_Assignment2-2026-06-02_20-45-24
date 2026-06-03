@@ -54,6 +54,7 @@
 ## Project Structure
 
 Assets/
+
 ├── Scripts/
 
 │ └── PlayerMovement.cs
