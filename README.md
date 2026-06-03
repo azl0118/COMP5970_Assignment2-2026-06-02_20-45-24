@@ -24,7 +24,7 @@ This repository contains the starting files and assets used throughout the lectu
 1. Clone or download this repository.
 2. Open the project using Unity Hub.
 3. Open the `Scenes` folder.
-4. Run `SampleScene` to start the project.
+4. Run `COMP5970_Assignment2` to start the project.
 
 ---
 
