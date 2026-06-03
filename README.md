@@ -73,6 +73,7 @@ Assets/
 ## Author
 
 Adam Lee
+
 This project uses the Project skeleton for Module 2 in COMP5970, Game Development, Dr. Abhishek Jariwala
 
 
