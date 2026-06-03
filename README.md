@@ -1,53 +1,80 @@
-# 2D Platformer — Skeleton Project
+# 2D Platformer Adventure
 
-Skeleton project for the Module 2 platformer game built in Unity. In this module, you will create a complete 2D platformer with movement, jumping, double jump, enemies, water hazards, and a finish goal.
+## Overview
 
-This repository contains the starting files and assets used throughout the lectures. The gameplay systems are intentionally incomplete so you can build them step-by-step during the module.
+2D Platformer Adventure is a Unity-based platformer game where the player must navigate platforms, collect all gems, avoid hazards, and reach the goal to win.
 
----
+## Features
 
-## Features You Will Build
-
-- Tilemap-based level design
-- Player movement
-- Jumping and double jump
-- Rigidbody2D physics and collisions
-- Water hazard triggers
-- Enemy patrol system
-- Win and lose conditions
-- Complete gameplay loop
-
----
-
-## Project Setup
-
-1. Clone or download this repository.
-2. Open the project using Unity Hub.
-3. Open the `Scenes` folder.
-4. Run `COMP5970_Assignment2` to start the project.
-
----
+* Left and right player movement
+* Jump and double jump mechanics
+* Collectible gems
+* Gem counter UI
+* Goal area that requires all gems to be collected
+* Enemy and water hazards
+* Win and lose conditions
+* On-screen messages for winning and losing
+* Restart level by pressing **R**
 
 ## Controls
 
-| Action | Key |
-|---|---|
-| Move Left | A / Left Arrow |
-| Move Right | D / Right Arrow |
-| Jump | Space |
+| Key             | Action                         |
+| --------------- | ------------------------------ |
+| A / Left Arrow  | Move Left                      |
+| D / Right Arrow | Move Right                     |
+| Space           | Jump / Double Jump             |
+| R               | Restart after Win or Game Over |
 
----
+## Gameplay
 
-## Folder Structure
+1. Start at the beginning of the level.
+2. Use platforms to navigate through the map.
+3. Collect all gems shown in the gem counter.
+4. Avoid enemies and water hazards.
+5. Reach the goal flag after collecting every gem.
+6. Win the game or restart if you lose.
 
-| Folder | Purpose |
-|---|---|
-| Scenes | Unity scenes |
-| Scripts | Gameplay scripts |
-| Sprites | Player, enemy, background, and object sprites |
-| Tiles | Tilemap assets and tile palettes |
+## Win Condition
 
----
+* Collect all gems.
+* Reach the goal flag.
+
+## Lose Condition
+
+* Touch an enemy.
+* Fall into water.
+
+## Technologies Used
+
+* Unity 2D
+* C#
+* TextMeshPro
+* Unity Input System
+
+## Project Structure
+
+Assets/
+├── Scripts/
+│ └── PlayerMovement.cs
+| └── EnemyPatrol.cs
+├── Sprites/
+├── Scenes/
+└── UI/
+
+## Future Improvements
+
+* Multiple levels
+* Main menu
+* Sound effects and music
+* Score system
+* Animated enemies
+* Checkpoints
+
+## Author
+
+Adam Lee
+This project uses the Project skeleton for Module 2 in COMP5970, Game Development, Dr. Abhishek Jariwala
+
 
 ## Assets
 
@@ -55,3 +82,4 @@ This project uses assets from the Kenney Pixel Platformer pack.
 
 Kenney Assets:  
 https://kenney.nl/assets/category:2D?search=platformer
+
